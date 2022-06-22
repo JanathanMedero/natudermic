@@ -32,13 +32,13 @@
 			<div class="header_extra d-flex flex-row align-items-center justify-content-end ml-auto">
 				
 				<!-- Work Hourse -->
-				<div class="work_hours">Mo - Sat: 8:00am - 9:00pm</div>
+				<div class="work_hours">Lunes - Viernes: 9:00am - 5:00pm</div>
 				
 				<!-- Header Phone -->
-				<div class="header_phone">+34 586 778 8892</div>
+				<div class="header_phone">+52 44 32 60 47 37</div>
 				
 				<!-- Appointment Button -->
-				<div class="button button_1 header_button"><a href="#">Make an Appointment</a></div>
+				<div class="button button_1 header_button"><a href="#">Quiero información</a></div>
 				
 				<!-- Header Social -->
 				<div class="social header_social">
@@ -70,9 +70,9 @@
 			</ul>
 		</nav>
 		<div class="menu_extra">
-			<div class="menu_link">Mo - Sat: 8:00am - 9:00pm</div>
-			<div class="menu_link">+34 586 778 8892</div>
-			<div class="menu_link"><a href="#">Make an appointment</a></div>
+			<div class="menu_link">Lunes - Viernes: 9:00am - 5:00pm</div>
+			<div class="menu_link">+52 44 32 60 47 37</div>
+			<div class="menu_link"><a href="#">Quiero información</a></div>
 		</div>
 		<div class="social menu_social">
 			<ul class="d-flex flex-row align-items-center justify-content-start">
@@ -83,6 +83,9 @@
 		</div>
 	</div>
 	
+	<!-- Alerts -->
+	@include('partials.alerts')
+
 	<!-- Home -->
 	
 	<div class="home">
@@ -175,7 +178,7 @@
 		</div>
 	</div>
 	
-	<div class="prices">
+	<div class="prices mt-4">
 		<div class="products_mobile container">
 			<div class="row">
 				<div class="col-lg-6 price_col">
@@ -245,11 +248,11 @@
 								</div>
 							</div>
 							<div class="col-md-12 mt-4">
-								<div class="row">
-									<div class="col-md-6">
+								<div class="row d-flex justify-content-between">
+									<div class="col-xs-6">
 										<div class="button button_1"><a href="#">Leer mas...</a></div>
 									</div>
-									<div class="col-md-6">
+									<div class="col-xs-6">
 										<div class="button button_2"><a href="#">Comprar</a></div>
 									</div>
 								</div>
@@ -273,11 +276,11 @@
 				<div class="col-lg-6 intro_col">
 					<div class="intro_content">
 						<div class="section_title_container">
-							<div class="section_subtitle">This is Dr Pro</div>
-							<div class="section_title"><h2>Welcome to our Clinic</h2></div>
+							<div class="section_subtitle">Natudermic</div>
+							<div class="section_title"><h3><strong>Contactanos sin compromiso</strong></h3></div>
 						</div>
 						<div class="intro_text">
-							<p>Integer aliquet congue libero, eu gravida odio ultrices ut. Etiam ac erat ut enim maximus accumsan vel ac nisl. Duis feugiat bibendum orci, non elementum urna vestibulum in. Nulla facilisi. Nulla egestas vel lacus sed interdum. Sed mollis, orci elementum eleifend tempor, nunc libero porttitor tellus, vel pharetra metus dolor.</p>
+							<p>Ponemos a disposición suya el siguiente formulario, sientase libre de ingresar los datos solicitados para hacerle llegar todas nuestras promociones hasta su correo electrónico, asi mismo le haremos llegar nuestros datos de contacto para una venta personalizada.</p>
 						</div>
 						<div class="milestones">
 							<div class="row milestones_row">
@@ -314,31 +317,24 @@
 				<!-- Intro Form -->
 				<div class="col-lg-6 intro_col">
 					<div class="intro_form_container">
-						<div class="intro_form_title">Make an Appointment</div>
-						<form action="#" class="intro_form" id="intro_form">
-							<div class="d-flex flex-row align-items-start justify-content-between flex-wrap">
-								<input type="text" class="intro_input" placeholder="Your Name" required="required">
-								<input type="email" class="intro_input" placeholder="Your E-mail" required="required">
-								<input type="tel" class="intro_input" placeholder="Your Phone" required="required">
-								<select class="intro_select intro_input" required>
-									<option disabled="" selected="" value="">Speciality</option>
-									<option>Speciality 1</option>
-									<option>Speciality 2</option>
-									<option>Speciality 3</option>
-									<option>Speciality 4</option>
-									<option>Speciality 5</option>
-								</select>
-								<select class="intro_select intro_input" required="required">
-									<option disabled="" selected="" value="">Doctor</option>
-									<option>Doctor 1</option>
-									<option>Doctor 2</option>
-									<option>Doctor 3</option>
-									<option>Doctor 4</option>
-									<option>Doctor 5</option>
-								</select>
-								<input type="text" id="datepicker" class="intro_input datepicker" placeholder="Date" required="required">
+						<div class="intro_form_title">Contactanos</div>
+						<form action="{{ route('mail') }}" method="POST" class="intro_form" id="intro_form">
+							@csrf
+							<div class="row">
+								<div class="col-md-12">
+									<input type="text" name="name" class="intro_input" placeholder="Ingresa tu nombre" required="required">
+								</div>
+								<div class="col-md-12">
+									<input type="email" name="email" class="intro_input" placeholder="Ingresa tu e-mail" required="required">
+								</div>
+								<div class="col-md-12">
+									<input type="tel" name="phone" class="intro_input" placeholder="Número de teléfono" required="required">
+								</div>
+								<div class="col-md-12">
+									<textarea class="intro_input" name="body" id="" cols="30" rows="10" style="resize: none;" placeholder="Dejanos una inquietud (Opcional)"></textarea>
+								</div>
 							</div>
-							<button class="button button_1 intro_button trans_200">make an appointment</button>
+							<button type="submit" class="button button_1 intro_button trans_200">Quiero información</button>
 						</form>
 					</div>
 				</div>
@@ -349,7 +345,7 @@
 	
 	<!-- Why Choose Us -->
 	
-	<div class="why">
+	{{-- <div class="why">
 		<!-- <div class="background_image" style="background-image:url(images/why.jpg)"></div> -->
 		<div class="container">
 			<div class="row row-eq-height">
@@ -413,7 +409,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> --}}
 	
 	<!-- Call to action -->
 	
@@ -423,10 +419,10 @@
 				<div class="col">
 					<div class="cta_container d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-start">
 						<div class="cta_content">
-							<div class="cta_title">Make your appointment today!</div>
-							<div class="cta_text">Etiam ac erat ut enim maximus accumsan vel ac nisl</div>
+							<div class="cta_title">O llamanos directamente!</div>
+							<div class="cta_text">Estaremos encantados de atenderte</div>
 						</div>
-						<div class="cta_phone ml-lg-auto">+34 586 778 8892</div>
+						<div class="cta_phone ml-lg-auto">+52 44 32 60 47 37</div>
 					</div>
 				</div>
 			</div>
@@ -440,8 +436,7 @@
 			<div class="row">
 				<div class="col text-center">
 					<div class="section_title_container">
-						<div class="section_subtitle">This is Dr Pro</div>
-						<div class="section_title"><h2>Our Services</h2></div>
+						<div class="section_title"><h2>Nuestros productos</h2></div>
 					</div>
 				</div>
 			</div>
@@ -454,9 +449,9 @@
 							<div class="icon_container d-flex flex-column align-items-center justify-content-center ml-auto mr-auto">
 								<div class="icon"><img src="images/icon_4.svg" alt="https://www.flaticon.com/authors/prosymbols"></div>
 							</div>
-							<div class="service_title">Breast Augmentation</div>
+							<div class="service_title">Productos naturales</div>
 							<div class="service_text">
-								<p>Odio ultrices ut. Etiam ac erat ut enim maximus accumsan vel ac nisl. Duis feugiat bibendum orci, non elementum urna.</p>
+								<p>Producto natural.( Manzanilla, aloe, caléndula, Ácido Hialurónico).</p>
 							</div>
 						</div>
 					</div>
@@ -469,9 +464,9 @@
 							<div class="icon_container d-flex flex-column align-items-center justify-content-center ml-auto mr-auto">
 								<div class="icon"><img src="images/icon_5.svg" alt="https://www.flaticon.com/authors/prosymbols"></div>
 							</div>
-							<div class="service_title">Breast Augmentation</div>
+							<div class="service_title">preparación de calidad</div>
 							<div class="service_text">
-								<p>Odio ultrices ut. Etiam ac erat ut enim maximus accumsan vel ac nisl. Duis feugiat bibendum orci, non elementum urna.</p>
+								<p>Nuestros productos cumplen con la mas alta calidad de higiene durante su preparación.</p>
 							</div>
 						</div>
 					</div>
@@ -482,11 +477,11 @@
 					<div class="service text-center">
 						<div class="service">
 							<div class="icon_container d-flex flex-column align-items-center justify-content-center ml-auto mr-auto">
-								<div class="icon"><img src="images/icon_6.svg" alt="https://www.flaticon.com/authors/prosymbols"></div>
+								<div class="icon"><img src="images/icon_6.svg"></div>
 							</div>
-							<div class="service_title">Breast Augmentation</div>
+							<div class="service_title">Envio gratis</div>
 							<div class="service_text">
-								<p>Odio ultrices ut. Etiam ac erat ut enim maximus accumsan vel ac nisl. Duis feugiat bibendum orci, non elementum urna.</p>
+								<p>Solicita tu envio gratis, dentro de la ciudad de morelia.</p>
 							</div>
 						</div>
 					</div>
