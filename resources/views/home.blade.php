@@ -8,18 +8,17 @@
 <div class="super_container">
 	
 	<!-- Header -->
-
+	
 	<header class="header trans_400">
 		<div class="header_content d-flex flex-row align-items-center jusity-content-start trans_400">
-
+			
 			<!-- Logo -->
 			<div class="logo">
 				<a href="#">
-					<div>Dr<span>PRO</span></div>
-					<div>Plastic Surgery</div>
+					<img src="{{ asset('img/logo_sin_marcos.png') }}" class="logo" alt="Logo">
 				</a>
 			</div>
-
+			
 			<!-- Main Navigation -->
 			<nav class="main_nav">
 				<ul class="d-flex flex-row align-items-center justify-content-start">
@@ -34,13 +33,13 @@
 				
 				<!-- Work Hourse -->
 				<div class="work_hours">Mo - Sat: 8:00am - 9:00pm</div>
-
+				
 				<!-- Header Phone -->
 				<div class="header_phone">+34 586 778 8892</div>
-
+				
 				<!-- Appointment Button -->
 				<div class="button button_1 header_button"><a href="#">Make an Appointment</a></div>
-
+				
 				<!-- Header Social -->
 				<div class="social header_social">
 					<ul class="d-flex flex-row align-items-center justify-content-start">
@@ -49,15 +48,15 @@
 						<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
 					</ul>
 				</div>
-
+				
 				<!-- Hamburger -->
 				<div class="hamburger"><i class="fa fa-bars" aria-hidden="true"></i></div>
 			</div>
 		</div>
 	</header>
-
+	
 	<!-- Menu -->
-
+	
 	<div class="menu_overlay trans_400"></div>
 	<div class="menu trans_400">
 		<div class="menu_close_container"><div class="menu_close"><div></div><div></div></div></div>
@@ -83,31 +82,30 @@
 			</ul>
 		</div>
 	</div>
-
+	
 	<!-- Home -->
-
+	
 	<div class="home">
-
+		
 		<!-- Home Slider -->
 		<div class="home_slider_container">
 			<div class="owl-carousel owl-theme home_slider">
 				
 				<!-- Slide -->
 				<div class="owl-item">
-					<div class="background_image" style="background-image:url(images/home_slider.jpg)"></div>
+					<div class="background_image" style="background-image:url(images/image1.png)"></div>
 					<div class="home_container">
 						<div class="container">
 							<div class="row">
 								<div class="col">
 									<div class="home_content">
-										<div class="home_subtitle">#1 Plastic Surgery Clinic</div>
-										<div class="home_title">Love the new you</div>
+										<div class="home_title">Crema Facial</div>
 										<div class="home_text">
 											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus.</p>
 										</div>
 										<div class="home_buttons d-flex flex-row align-items-center justify-content-start">
-											<div class="button button_1 trans_200"><a href="#">read more</a></div>
-											<div class="button button_2 trans_200"><a href="#">make an appointment</a></div>
+											<div class="button button_1 trans_200"><a href="#">Leer más...</a></div>
+											<div class="button button_2 trans_200"><a href="#">¡Lo quiero!</a></div>
 										</div>
 									</div>
 								</div>
@@ -115,23 +113,22 @@
 						</div>
 					</div>
 				</div>
-
+				
 				<!-- Slide -->
 				<div class="owl-item">
-					<div class="background_image" style="background-image:url(images/home_slider.jpg)"></div>
+					<div class="background_image" style="background-image:url(images/image2.png)"></div>
 					<div class="home_container">
 						<div class="container">
 							<div class="row">
 								<div class="col">
 									<div class="home_content">
-										<div class="home_subtitle">#1 Plastic Surgery Clinic</div>
-										<div class="home_title">Love the new you</div>
+										<div class="home_title">Loción de Rosas</div>
 										<div class="home_text">
 											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus.</p>
 										</div>
 										<div class="home_buttons d-flex flex-row align-items-center justify-content-start">
-											<div class="button button_1 trans_200"><a href="#">read more</a></div>
-											<div class="button button_2 trans_200"><a href="#">make an appointment</a></div>
+											<div class="button button_1 trans_200"><a href="#">Leer más...</a></div>
+											<div class="button button_2 trans_200"><a href="#">¡Lo quiero!</a></div>
 										</div>
 									</div>
 								</div>
@@ -139,23 +136,22 @@
 						</div>
 					</div>
 				</div>
-
+				
 				<!-- Slide -->
 				<div class="owl-item">
-					<div class="background_image" style="background-image:url(images/home_slider.jpg)"></div>
+					<div class="background_image" style="background-image:url(images/image3.png)"></div>
 					<div class="home_container">
 						<div class="container">
 							<div class="row">
 								<div class="col">
 									<div class="home_content">
-										<div class="home_subtitle">#1 Plastic Surgery Clinic</div>
-										<div class="home_title">Love the new you</div>
+										<div class="home_title">Cera para la piel</div>
 										<div class="home_text">
 											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus.</p>
 										</div>
 										<div class="home_buttons d-flex flex-row align-items-center justify-content-start">
-											<div class="button button_1 trans_200"><a href="#">read more</a></div>
-											<div class="button button_2 trans_200"><a href="#">make an appointment</a></div>
+											<div class="button button_1 trans_200"><a href="#">Leer más...</a></div>
+											<div class="button button_2 trans_200"><a href="#">¡Lo quiero!</a></div>
 										</div>
 									</div>
 								</div>
@@ -163,11 +159,11 @@
 						</div>
 					</div>
 				</div>
-
+				
 			</div>
-
+			
 			<!-- Home Slider Dots -->
-
+			
 			<div class="home_slider_dots">
 				<ul id="home_slider_custom_dots" class="home_slider_custom_dots d-flex flex-row align-items-center justify-content-start">
 					<li class="home_slider_custom_dot trans_200 active"></li>
@@ -175,16 +171,104 @@
 					<li class="home_slider_custom_dot trans_200"></li>
 				</ul>
 			</div>
+			
+		</div>
+	</div>
+	
+	<div class="prices">
+		<div class="products_mobile container">
+			<div class="row">
+				<div class="col-lg-6 price_col">
+					<div class="price">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="price_title">Crema Facial</div>
+							</div>
+							<div class="col-md-12">
+								<div class="price_text">
+									<p>Integer aliquet congue libero, eu gravida odio ultrces ut. Etiam ac erat ut enim maximus accumsan vel ac nisl.</p>
+								</div>
+							</div>
+							<div class="col-md-12 mt-4">
+								<div class="row d-flex justify-content-between">
+									<div class="col-xs-6">
+										<div class="button button_1"><a href="#">Leer mas...</a></div>
+									</div>
+									<div class="col-xs-6">
+										<div class="button button_2"><a href="#">Comprar</a></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="price_panel">Desde $250</div>
+					</div>
+				</div>
+
+				<div class="col-lg-6 price_col mt-4 mt-sm-4 mt-lg-0">
+					<div class="price mt-4 mt-sm-4 mt-lg-0">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="price_title">Loción de Rosas</div>
+							</div>
+							<div class="col-md-12">
+								<div class="price_text">
+									<p>Integer aliquet congue libero, eu gravida odio ultrces ut. Etiam ac erat ut enim maximus accumsan vel ac nisl.</p>
+								</div>
+							</div>
+							<div class="col-md-12 mt-4">
+								<div class="row d-flex justify-content-between">
+									<div class="col-xs-6">
+										<div class="button button_1"><a href="#">Leer mas...</a></div>
+									</div>
+									<div class="col-xs-6">
+										<div class="button button_2"><a href="#">Comprar</a></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="price_panel">Desde $250</div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="row d-flex justify-content-center">
+				<div class="col-lg-6 price_col mt-4">
+					<div class="price mt-4">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="price_title">Cera para la Piel</div>
+							</div>
+							<div class="col-md-12">
+								<div class="price_text">
+									<p>Integer aliquet congue libero, eu gravida odio ultrces ut. Etiam ac erat ut enim maximus accumsan vel ac nisl.</p>
+								</div>
+							</div>
+							<div class="col-md-12 mt-4">
+								<div class="row">
+									<div class="col-md-6">
+										<div class="button button_1"><a href="#">Leer mas...</a></div>
+									</div>
+									<div class="col-md-6">
+										<div class="button button_2"><a href="#">Comprar</a></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="price_panel">Desde $350</div>
+					</div>
+				</div>
+			</div>
 
 		</div>
 	</div>
-
+	
 	<!-- Intro -->
-
+	
 	<div class="intro">
 		<div class="container">
 			<div class="row">
-
+				
 				<!-- Intro Content -->
 				<div class="col-lg-6 intro_col">
 					<div class="intro_content">
@@ -197,7 +281,7 @@
 						</div>
 						<div class="milestones">
 							<div class="row milestones_row">
-							
+								
 								<!-- Milestone -->
 								<div class="col-md-4 milestone_col">
 									<div class="milestone">
@@ -205,7 +289,7 @@
 										<div class="milestone_text">Satisfied Patients</div>
 									</div>
 								</div>
-
+								
 								<!-- Milestone -->
 								<div class="col-md-4 milestone_col">
 									<div class="milestone">
@@ -213,7 +297,7 @@
 										<div class="milestone_text">Face Liftings</div>
 									</div>
 								</div>
-
+								
 								<!-- Milestone -->
 								<div class="col-md-4 milestone_col">
 									<div class="milestone">
@@ -221,12 +305,12 @@
 										<div class="milestone_text">Injectibles</div>
 									</div>
 								</div>
-
+								
 							</div>
 						</div>
 					</div>
 				</div>
-
+				
 				<!-- Intro Form -->
 				<div class="col-lg-6 intro_col">
 					<div class="intro_form_container">
@@ -245,38 +329,38 @@
 									<option>Speciality 5</option>
 								</select>
 								<select class="intro_select intro_input" required="required">
-										<option disabled="" selected="" value="">Doctor</option>
-										<option>Doctor 1</option>
-										<option>Doctor 2</option>
-										<option>Doctor 3</option>
-										<option>Doctor 4</option>
-										<option>Doctor 5</option>
-									</select>
+									<option disabled="" selected="" value="">Doctor</option>
+									<option>Doctor 1</option>
+									<option>Doctor 2</option>
+									<option>Doctor 3</option>
+									<option>Doctor 4</option>
+									<option>Doctor 5</option>
+								</select>
 								<input type="text" id="datepicker" class="intro_input datepicker" placeholder="Date" required="required">
 							</div>
 							<button class="button button_1 intro_button trans_200">make an appointment</button>
 						</form>
 					</div>
 				</div>
-
+				
 			</div>
 		</div>
 	</div>
-
+	
 	<!-- Why Choose Us -->
-
+	
 	<div class="why">
 		<!-- <div class="background_image" style="background-image:url(images/why.jpg)"></div> -->
 		<div class="container">
 			<div class="row row-eq-height">
-
+				
 				<!-- Why Choose Us Image -->
 				<div class="col-lg-6 order-lg-1 order-2">
 					<div class="why_image_container">
 						<div class="why_image"><img src="images/why_1.jpg" alt=""></div>
 					</div>
 				</div>
-
+				
 				<!-- Why Choose Us Content -->
 				<div class="col-lg-6 order-lg-2 order-1">
 					<div class="why_content">
@@ -289,7 +373,7 @@
 						</div>
 						<div class="why_list">
 							<ul>
-
+								
 								<!-- Why List Item -->
 								<li class="d-flex flex-row align-items-center justify-content-start">
 									<div class="icon_container d-flex flex-column align-items-center justify-content-center">
@@ -300,7 +384,7 @@
 										<div class="why_list_text">Etiam ac erat ut enim maximus accumsan vel ac nisl</div>
 									</div>
 								</li>
-
+								
 								<!-- Why List Item -->
 								<li class="d-flex flex-row align-items-center justify-content-start">
 									<div class="icon_container d-flex flex-column align-items-center justify-content-center">
@@ -311,7 +395,7 @@
 										<div class="why_list_text">Ac erat ut enim maximus accumsan vel ac</div>
 									</div>
 								</li>
-
+								
 								<!-- Why List Item -->
 								<li class="d-flex flex-row align-items-center justify-content-start">
 									<div class="icon_container d-flex flex-column align-items-center justify-content-center">
@@ -322,7 +406,7 @@
 										<div class="why_list_text">Etiam ac erat ut enim maximus accumsan vel</div>
 									</div>
 								</li>
-
+								
 							</ul>
 						</div>
 					</div>
@@ -330,9 +414,9 @@
 			</div>
 		</div>
 	</div>
-
+	
 	<!-- Call to action -->
-
+	
 	<div class="cta">
 		<div class="container">
 			<div class="row">
@@ -348,9 +432,9 @@
 			</div>
 		</div>
 	</div>
-
+	
 	<!-- Services -->
-
+	
 	<div class="services">
 		<div class="container">
 			<div class="row">
@@ -377,7 +461,7 @@
 						</div>
 					</div>
 				</div>
-
+				
 				<!-- Service -->
 				<div class="col-xl-4 col-md-6 service_col">
 					<div class="service text-center">
@@ -392,7 +476,7 @@
 						</div>
 					</div>
 				</div>
-
+				
 				<!-- Service -->
 				<div class="col-xl-4 col-md-6 service_col">
 					<div class="service text-center">
@@ -407,7 +491,7 @@
 						</div>
 					</div>
 				</div>
-
+				
 				<!-- Service -->
 				<div class="col-xl-4 col-md-6 service_col">
 					<div class="service text-center">
@@ -422,7 +506,7 @@
 						</div>
 					</div>
 				</div>
-
+				
 				<!-- Service -->
 				<div class="col-xl-4 col-md-6 service_col">
 					<div class="service text-center">
@@ -437,7 +521,7 @@
 						</div>
 					</div>
 				</div>
-
+				
 				<!-- Service -->
 				<div class="col-xl-4 col-md-6 service_col">
 					<div class="service text-center">
@@ -452,13 +536,13 @@
 						</div>
 					</div>
 				</div>
-
+				
 			</div>
 		</div>
 	</div>
-
+	
 	<!-- Extra -->
-
+	
 	<div class="extra">
 		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/extra.jpg" data-speed="0.8"></div>
 		<div class="container">
@@ -481,9 +565,9 @@
 			</div>
 		</div>
 	</div>
-
+	
 	<!-- Newsletter -->
-
+	
 	<div class="newsletter">
 		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/newsletter.jpg" data-speed="0.8"></div>
 		<div class="container">
@@ -504,14 +588,14 @@
 			</div>
 		</div>
 	</div>
-
+	
 	<!-- Footer -->
-
+	
 	<footer class="footer">
 		<div class="footer_content">
 			<div class="container">
 				<div class="row">
-
+					
 					<!-- Footer About -->
 					<div class="col-lg-3 footer_col">
 						<div class="footer_about">
@@ -526,7 +610,7 @@
 							</div>
 						</div>
 					</div>
-
+					
 					<!-- Footer Contact Info -->
 					<div class="col-lg-3 footer_col">
 						<div class="footer_contact">
@@ -538,7 +622,7 @@
 							</ul>
 						</div>
 					</div>
-
+					
 					<!-- Footer Locations -->
 					<div class="col-lg-3 footer_col">
 						<div class="footer_location">
@@ -555,7 +639,7 @@
 							</ul>
 						</div>
 					</div>
-
+					
 					<!-- Footer Opening Hours -->
 					<div class="col-lg-3 footer_col">
 						<div class="opening_hours">
@@ -584,7 +668,7 @@
 							</ul>
 						</div>
 					</div>
-
+					
 				</div>
 			</div>
 		</div>
@@ -594,9 +678,9 @@
 					<div class="col">
 						<div class="footer_bar_content  d-flex flex-md-row flex-column align-items-md-center justify-content-start">
 							<div class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-</div>
+								Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+								<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+							</div>
 							<nav class="footer_nav ml-md-auto">
 								<ul class="d-flex flex-row align-items-center justify-content-start">
 									<li><a href="index.html">Home</a></li>

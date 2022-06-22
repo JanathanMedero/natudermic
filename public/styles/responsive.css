@@ -262,7 +262,7 @@
 	.header.scrolled .header_content,
 	.header_content
 	{
-		height: 60px;
+		height: 110px;
 	}
 	.home
 	{
@@ -410,7 +410,31 @@
 14. 400px
 ************/
 
-@media only screen and (max-width: 400px)
+@media only screen and (max-width: 1200px)
 {
-	
+	.home{
+		display: none;
+	}
 }
+
+@media only screen and (max-width: 1199px)
+{
+	.prices{
+		display: block;
+	}
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 3200px)
+{
+	.prices{
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 991px)
+{
+	.logo{
+		width: 180px;
+	}
+}
+
