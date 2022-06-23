@@ -553,7 +553,7 @@
 							<div class="extra_text">
 								<p>Aprovecha nuestra promoción de 30% de descuento en nuestros productos seleccionados.</p>
 							</div>
-							<div class="button button_1 extra_link trans_200"><a href="#">read more</a></div>
+							<div class="button button_1 extra_link trans_200"><a href="#">Leer mas...</a></div>
 						</div>
 					</div>
 				</div>
@@ -564,19 +564,19 @@
 	<!-- Newsletter -->
 	
 	<div class="newsletter">
-		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/newsletter.jpg" data-speed="0.8"></div>
+		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/newsletter-min.png" data-speed="0.8"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col text-center">
-					<div class="newsletter_title">Subscribe to our newsletter</div>
+					<div class="newsletter_title">Dejanos tu correo para recibir promociones</div>
 				</div>
 			</div>
 			<div class="row newsletter_row">
 				<div class="col-lg-8 offset-lg-2">
 					<div class="newsletter_form_container">
 						<form action="#" id="newsleter_form" class="newsletter_form">
-							<input type="email" class="newsletter_input" placeholder="Your E-mail" required="required">
-							<button class="newsletter_button">subscribe</button>
+							<input type="email" class="newsletter_input" placeholder="Correo electrónico" required="required">
+							<button class="newsletter_button">Enviar</button>
 						</form>
 					</div>
 				</div>
@@ -596,12 +596,11 @@
 						<div class="footer_about">
 							<div class="footer_logo">
 								<a href="#">
-									<div>Dr<span>PRO</span></div>
-									<div>Plastic Surgery</div>
+									<img src="{{ asset('images/logo_fade_horizontal.png') }}" alt="" style="width: 150px;">
 								</a>
 							</div>
 							<div class="footer_about_text">
-								<p>Nulla facilisi. Nulla egestas vel lacus sed interdum. Sed mollis, orci eleme ntum eleifend tempor, nunc libero porttitor tellus.</p>
+								<p>Cosmetico para el cuidado facial. No somos los unicos, pero si los mejores en el cuidado de la piel.</p>
 							</div>
 						</div>
 					</div>
@@ -609,11 +608,10 @@
 					<!-- Footer Contact Info -->
 					<div class="col-lg-3 footer_col">
 						<div class="footer_contact">
-							<div class="footer_title">Contact Info</div>
+							<div class="footer_title">Información de contacto</div>
 							<ul class="contact_list">
-								<li>+53 345 7953 32453</li>
-								<li>yourmail@gmail.com</li>
-								<li>contact@gmail.com</li>
+								<li>+52 44 32 60 47 37</li>
+								<li>soporte@natudermic.mx</li>
 							</ul>
 						</div>
 					</div>
@@ -621,15 +619,11 @@
 					<!-- Footer Locations -->
 					<div class="col-lg-3 footer_col">
 						<div class="footer_location">
-							<div class="footer_title">Our Locations</div>
+							<div class="footer_title">Nos ubicamos</div>
 							<ul class="locations_list">
 								<li>
-									<div class="location_title">Miami</div>
-									<div class="location_text">45 Creekside Av  FL 931</div>
-								</li>
-								<li>
-									<div class="location_title">Los Angeles</div>
-									<div class="location_text">1481 Creekside Lane Avila Beach, CA 931</div>
+									<div class="location_title">Morelia, Michoacán</div>
+									<div class="location_text">Garcia Obeso 1125, Col. Felix Ireta</div>
 								</li>
 							</ul>
 						</div>
@@ -638,27 +632,27 @@
 					<!-- Footer Opening Hours -->
 					<div class="col-lg-3 footer_col">
 						<div class="opening_hours">
-							<div class="footer_title">Opening Hours</div>
+							<div class="footer_title">Horario de atención</div>
 							<ul class="opening_hours_list">
 								<li class="d-flex flex-row align-items-start justify-content-start">
-									<div>Monday:</div>
-									<div class="ml-auto">8:00am - 9:00pm</div>
+									<div>Lunes:</div>
+									<div class="ml-auto">9:00am - 5:00pm</div>
 								</li>
 								<li class="d-flex flex-row align-items-start justify-content-start">
-									<div>Thuesday:</div>
-									<div class="ml-auto">8:00am - 9:00pm</div>
+									<div>Martes:</div>
+									<div class="ml-auto">9:00am - 5:00pm</div>
 								</li>
 								<li class="d-flex flex-row align-items-start justify-content-start">
-									<div>Wednesday:</div>
-									<div class="ml-auto">8:00am - 9:00pm</div>
+									<div>Miercoles:</div>
+									<div class="ml-auto">9:00am - 5:00pm</div>
 								</li>
 								<li class="d-flex flex-row align-items-start justify-content-start">
-									<div>Thursday:</div>
-									<div class="ml-auto">8:00am - 9:00pm</div>
+									<div>Jueves:</div>
+									<div class="ml-auto">9:00am - 5:00pm</div>
 								</li>
 								<li class="d-flex flex-row align-items-start justify-content-start">
-									<div>Friday:</div>
-									<div class="ml-auto">8:00am - 7:00pm</div>
+									<div>Viernes:</div>
+									<div class="ml-auto">9:00am - 5:00pm</div>
 								</li>
 							</ul>
 						</div>
