@@ -328,10 +328,10 @@
 									<input type="email" name="email" class="intro_input" placeholder="Ingresa tu e-mail" required="required">
 								</div>
 								<div class="col-md-12">
-									<input type="tel" name="phone" class="intro_input" placeholder="Número de teléfono" required="required">
+									<input type="text" name="affair" class="intro_input" placeholder="Asunto" required="required">
 								</div>
 								<div class="col-md-12">
-									<textarea class="intro_input" name="body" id="" cols="30" rows="10" style="resize: none;" placeholder="Dejanos una inquietud (Opcional)"></textarea>
+									<textarea class="intro_input" name="message" id="" cols="30" rows="10" style="resize: none;" placeholder="Mensaje (Opcional)"></textarea>
 								</div>
 							</div>
 							<button type="submit" class="button button_1 intro_button trans_200">Quiero información</button>
