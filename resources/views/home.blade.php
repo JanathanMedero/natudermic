@@ -20,7 +20,7 @@
 			</div>
 			
 			<!-- Main Navigation -->
-			<nav class="main_nav">
+			{{-- <nav class="main_nav">
 				<ul class="d-flex flex-row align-items-center justify-content-start">
 					<li class="active"><a href="index.html">Home</a></li>
 					<li><a href="about.html">About us</a></li>
@@ -28,7 +28,7 @@
 					<li><a href="blog.html">News</a></li>
 					<li><a href="contact.html">Contact</a></li>
 				</ul>
-			</nav>
+			</nav> --}}
 			<div class="header_extra d-flex flex-row align-items-center justify-content-end ml-auto">
 				
 				<!-- Work Hourse -->
@@ -44,7 +44,7 @@
 				<div class="social header_social">
 					<ul class="d-flex flex-row align-items-center justify-content-start">
 						<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-						<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<li><a href="https://www.facebook.com/natudermic" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 						<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
 					</ul>
 				</div>
@@ -667,10 +667,10 @@
 					<div class="col">
 						<div class="footer_bar_content  d-flex flex-md-row flex-column align-items-md-center justify-content-start">
 							<div class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-								Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+								Copyright &copy;<script>document.write(new Date().getFullYear());</script> Natudermic | Todos los derechos reservados 
 								<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 							</div>
-							<nav class="footer_nav ml-md-auto">
+							{{-- <nav class="footer_nav ml-md-auto">
 								<ul class="d-flex flex-row align-items-center justify-content-start">
 									<li><a href="index.html">Home</a></li>
 									<li><a href="about.html">About us</a></li>
@@ -678,7 +678,7 @@
 									<li><a href="blog.html">News</a></li>
 									<li><a href="contact.html">Contact</a></li>
 								</ul>
-							</nav>
+							</nav> --}}
 						</div>
 					</div>
 				</div>

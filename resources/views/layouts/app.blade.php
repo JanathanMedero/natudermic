@@ -15,6 +15,7 @@
 <link rel="stylesheet" type="text/css" href="{{ asset('styles/main_styles.css') }}">
 <link rel="stylesheet" type="text/css" href="{{ asset('styles/services.css') }}">
 <link rel="stylesheet" type="text/css" href="{{ asset('styles/responsive.css') }}">
+<link rel="icon" href="{{ asset('images/favicon.png') }}" type="image/x-icon">
 </head>
 
 @yield('content')
