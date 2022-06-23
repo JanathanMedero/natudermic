@@ -286,14 +286,14 @@
 							<div class="row milestones_row">
 								
 								<!-- Milestone -->
-								<div class="col-md-4 milestone_col">
+								<div class="col-md-6 milestone_col">
 									<div class="milestone">
-										<div class="milestone_counter" data-end-value="5000" data-sign-before="+">0</div>
-										<div class="milestone_text">Satisfied Patients</div>
+										<div class="milestone_counter" data-end-value="250" data-sign-before="+">0</div>
+										<div class="milestone_text">Pacientes Satifechos</div>
 									</div>
 								</div>
 								
-								<!-- Milestone -->
+								{{-- <!-- Milestone -->
 								<div class="col-md-4 milestone_col">
 									<div class="milestone">
 										<div class="milestone_counter" data-end-value="352">0</div>
@@ -307,7 +307,7 @@
 										<div class="milestone_counter" data-end-value="718">0</div>
 										<div class="milestone_text">Injectibles</div>
 									</div>
-								</div>
+								</div> --}}
 								
 							</div>
 						</div>
@@ -539,19 +539,19 @@
 	<!-- Extra -->
 	
 	<div class="extra">
-		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/extra.jpg" data-speed="0.8"></div>
+		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/parallax.png" data-speed="0.8"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col">
-					<div class="extra_container d-flex flex-row align-items-start justify-content-end">
+					<div class="extra_container d-flex flex-row align-items-start">
 						<div class="extra_content">
 							<div class="extra_disc d-flex flex-row align-items-end justify-content-start">
 								<div>30<span>%</span></div>
-								<div>Discount</div>
+								<div>Descuento</div>
 							</div>
-							<div class="extra_title">Only in August</div>
+							<div class="extra_title">Solo en Julio</div>
 							<div class="extra_text">
-								<p>Nulla facilisi. Nulla egestas vel lacus sed interdum. Sed mollis, orci elementum eleifend tempor, nunc libero porttitor tellus.</p>
+								<p>Aprovecha nuestra promoción de 30% de descuento en nuestros productos seleccionados.</p>
 							</div>
 							<div class="button button_1 extra_link trans_200"><a href="#">read more</a></div>
 						</div>
