@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title')
-<title>Natudermic</title>
+<title>Natudermic - Los mejores en el cuidado de la piel</title>
 @endsection
 
 @section('content')

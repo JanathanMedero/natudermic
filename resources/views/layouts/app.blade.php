@@ -2,9 +2,8 @@
 <html lang="en">
 <head>
 @yield('title')
-<meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="description" content="Natudermic - Cuidado para tu piel">
+<meta name="description" content="Natudermic es una organización 100% mexicana que se especializa en el cuidado de tu piel, estamos comprometidos en brindarte la mejor calidad en nuestros productos.">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="{{ asset('styles/bootstrap-4.1.2/bootstrap.min.css') }}">
 <link href="{{ asset('plugins/font-awesome-4.7.0/css/font-awesome.min.css') }}" rel="stylesheet" type="text/css">
