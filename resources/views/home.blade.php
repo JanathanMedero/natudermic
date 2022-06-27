@@ -622,7 +622,7 @@
 								</a>
 							</div>
 							<div class="footer_about_text">
-								<p>Cosmetico para el cuidado facial. No somos los unicos, pero si los mejores en el cuidado de la piel.</p>
+								<p>Cosmetico para el cuidado facial. SOMOS LOS MEJORES EN EL CUIDADO DE LA PIEL.</p>
 							</div>
 						</div>
 					</div>
