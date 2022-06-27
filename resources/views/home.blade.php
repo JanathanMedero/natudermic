@@ -102,7 +102,10 @@
 									<div class="home_content">
 										<div class="home_title">Crema Facial</div>
 										<div class="home_text">
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus.</p>
+											<p>Ideal para pieles mixtas o grasas, auxiliar en el tratamiento para pieles manchadas por el sol, secuelas del acné. Hidrata tu piel, humecta y rehidrata. Además regenera la piel y asi mismo atenúa las lineas de expresión. Producto 100% natural.</p>
+										</div>
+										<div class="home_buttons d-flex flex-row align-items-center justify-content-start">
+											<div class="button button_1 trans_200"><a href="#" style="pointer-events: none; font-size: 18px;">Desde $200</a></div>
 										</div>
 									</div>
 								</div>
@@ -121,7 +124,10 @@
 									<div class="home_content">
 										<div class="home_title">Loción de Rosas</div>
 										<div class="home_text">
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus.</p>
+											<p>Tonifica tu piel con nuestra loción de rosas, aporta vitamina C y E para ayudar a conservar el colageno y la elastina previniendo la flacidez y las arrugas finas. Cuenta con propiedades astringentes y antiinflamatorias que, tras ser asimiladas, ayudan a prevenir y combatir los granos de acné.</p>
+										</div>
+										<div class="home_buttons d-flex flex-row align-items-center justify-content-start">
+											<div class="button button_1 trans_200"><a href="#" style="pointer-events: none; font-size: 18px;">Desde $75</a></div>
 										</div>
 									</div>
 								</div>
@@ -140,7 +146,10 @@
 									<div class="home_content">
 										<div class="home_title">Cera para la piel</div>
 										<div class="home_text">
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus.</p>
+											<p>Disfrute de una piel más limpia con nuestra cera española 100% natural. Técnica menos dolorosa que la cera convencional. Aplicación en tibio y sin bandas. Elimina de raíz el vello con su bulbo, ideal para cualquier parte del cuerpo, dejando la piel muy nitida y tersa.</p>
+										</div>
+										<div class="home_buttons d-flex flex-row align-items-center justify-content-start">
+											<div class="button button_1 trans_200"><a href="#" style="pointer-events: none; font-size: 18px;">Desde $75</a></div>
 										</div>
 										{{-- <div class="home_buttons d-flex flex-row align-items-center justify-content-start">
 											<div class="button button_1 trans_200"><a href="#">Leer más...</a></div>
@@ -179,21 +188,13 @@
 							</div>
 							<div class="col-md-12">
 								<div class="price_text">
-									<p>Integer aliquet congue libero, eu gravida odio ultrces ut. Etiam ac erat ut enim maximus accumsan vel ac nisl.</p>
+									<p>Ideal para pieles mixtas o grasas, auxiliar en el tratamiento para pieles manchadas por el sol, secuelas del acné. Hidrata tu piel, humecta y rehidrata. Además regenera la piel y asi mismo atenúa las lineas de expresión. Producto 100% natural.</p>
 								</div>
 							</div>
 							<div class="col-md-12 mt-4">
-								<div class="row d-flex justify-content-between">
-									<div class="col-xs-6">
-										<div class="button button_1"><a href="#">Leer mas...</a></div>
-									</div>
-									<div class="col-xs-6">
-										<div class="button button_2"><a href="#">Comprar</a></div>
-									</div>
-								</div>
 							</div>
 						</div>
-						<div class="price_panel">Desde $250</div>
+						<div class="price_panel">Desde $200</div>
 					</div>
 				</div>
 				
@@ -205,21 +206,11 @@
 							</div>
 							<div class="col-md-12">
 								<div class="price_text">
-									<p>Integer aliquet congue libero, eu gravida odio ultrces ut. Etiam ac erat ut enim maximus accumsan vel ac nisl.</p>
-								</div>
-							</div>
-							<div class="col-md-12 mt-4">
-								<div class="row d-flex justify-content-between">
-									<div class="col-xs-6">
-										<div class="button button_1"><a href="#">Leer mas...</a></div>
-									</div>
-									<div class="col-xs-6">
-										<div class="button button_2"><a href="#">Comprar</a></div>
-									</div>
+									<p>Tonifica tu piel con nuestra loción de rosas, aporta vitamina C y E para ayudar a conservar el colageno y la elastina previniendo la flacidez y las arrugas finas. Cuenta con propiedades astringentes y antiinflamatorias que, tras ser asimiladas, ayudan a prevenir y combatir los granos de acné.</p>
 								</div>
 							</div>
 						</div>
-						<div class="price_panel">Desde $250</div>
+						<div class="price_panel">Desde $75</div>
 					</div>
 				</div>
 				
@@ -234,21 +225,11 @@
 							</div>
 							<div class="col-md-12">
 								<div class="price_text">
-									<p>Integer aliquet congue libero, eu gravida odio ultrces ut. Etiam ac erat ut enim maximus accumsan vel ac nisl.</p>
-								</div>
-							</div>
-							<div class="col-md-12 mt-4">
-								<div class="row d-flex justify-content-between">
-									<div class="col-xs-6">
-										<div class="button button_1"><a href="#">Leer mas...</a></div>
-									</div>
-									<div class="col-xs-6">
-										<div class="button button_2"><a href="#">Comprar</a></div>
-									</div>
+									<p>Disfrute de una piel más limpia con nuestra cera española 100% natural. Técnica menos dolorosa que la cera convencional. Aplicación en tibio y sin bandas. Elimina de raíz el vello con su bulbo, ideal para cualquier parte del cuerpo, dejando la piel muy nitida y tersa.</p>
 								</div>
 							</div>
 						</div>
-						<div class="price_panel">Desde $350</div>
+						<div class="price_panel">Desde $75</div>
 					</div>
 				</div>
 			</div>
@@ -558,14 +539,13 @@
 							<div class="extra_container d-flex flex-row align-items-start">
 								<div class="extra_content">
 									<div class="extra_disc d-flex flex-row align-items-end justify-content-start">
-										<div>30<span>%</span></div>
-										<div>Descuento</div>
+										<div>Pregunta por nuestros descuentos de temporada.</div>
 									</div>
-									<div class="extra_title">Solo en Julio</div>
+									{{-- <div class="extra_title">Pregunta por nuestros descuentos</div> --}}
 									<div class="extra_text">
-										<p>Aprovecha nuestra promoción de 30% de descuento en nuestros productos seleccionados.</p>
+										<p>Aprovecha nuestros descuentos especiales a distribuidores, puedes preguntarnos mediante whatsapp o correo electrónico.</p>
 									</div>
-									<div class="button button_1 extra_link trans_200"><a href="#">Leer mas...</a></div>
+									<div class="button button_whatsapp mt-4"><a href="https://api.whatsapp.com/send?phone=524432604737" target="_blank">Iniciar conversación <img src="{{ asset('images/whatsapp.png') }}" alt="Whatsapp" width="25px;"></a></div>
 								</div>
 							</div>
 						</div>
@@ -580,10 +560,10 @@
 				<div class="container">
 					<div class="row">
 						<div class="col text-center">
-							<div class="newsletter_title">Dejanos tu correo para recibir promociones</div>
+							<div class="newsletter_title">SOMOS LOS MEJORES EN EL CUIDADO DE LA PIEL.</div>
 						</div>
 					</div>
-					<div class="row newsletter_row">
+					{{-- <div class="row newsletter_row">
 						<div class="col-lg-8 offset-lg-2">
 							<div class="newsletter_form_container">
 								<form action="#" id="newsleter_form" class="newsletter_form">
@@ -592,7 +572,7 @@
 								</form>
 							</div>
 						</div>
-					</div>
+					</div> --}}
 				</div>
 			</div>
 			

@@ -1088,14 +1088,14 @@ section
 	font-size: 60px;
 	font-weight: 700;
 	color: #6bdbd2;
-	line-height: 0.75;
+	line-height: 1.75;
 }
 .extra_disc > div:last-child
 {
 	font-size: 24px;
 	font-weight: 500;
 	color: #979797;
-	line-height: 0.75;
+	line-height: 1.75;
 }
 .extra_disc > div:first-child span
 {
