@@ -43,9 +43,8 @@
 				<!-- Header Social -->
 				<div class="social header_social">
 					<ul class="d-flex flex-row align-items-center justify-content-start">
-						<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
 						<li><a href="https://www.facebook.com/natudermic" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-						<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+						<li><a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
 					</ul>
 				</div>
 				
@@ -96,7 +95,7 @@
 				
 				<!-- Slide -->
 				<div class="owl-item">
-					<div class="background_image" style="background-image:url(images/image1.png)"></div>
+					<div class="background_image" style="background-image:url(images/slider1.png)"></div>
 					<div class="home_container">
 						<div class="container">
 							<div class="row">
@@ -119,7 +118,7 @@
 				
 				<!-- Slide -->
 				<div class="owl-item">
-					<div class="background_image" style="background-image:url(images/image2.png)"></div>
+					<div class="background_image" style="background-image:url(images/slider2.png)"></div>
 					<div class="home_container">
 						<div class="container">
 							<div class="row">
@@ -142,7 +141,7 @@
 				
 				<!-- Slide -->
 				<div class="owl-item">
-					<div class="background_image" style="background-image:url(images/image3.png)"></div>
+					<div class="background_image" style="background-image:url(images/slider3.png)"></div>
 					<div class="home_container">
 						<div class="container">
 							<div class="row">
