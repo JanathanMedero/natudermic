@@ -14,7 +14,7 @@
 			
 			<!-- Logo -->
 			<div class="logo">
-				<a href="#">
+				<a href="{{ route('home') }}">
 					<img src="{{ asset('img/logo_sin_marcos.png') }}" class="logo" alt="Logo">
 				</a>
 			</div>
@@ -419,10 +419,32 @@
 				<div class="col">
 					<div class="cta_container d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-start">
 						<div class="cta_content">
-							<div class="cta_title">O llamanos directamente!</div>
-							<div class="cta_text">Estaremos encantados de atenderte</div>
+							<div class="cta_title">Llamanos directamente!</div>
 						</div>
 						<div class="cta_phone ml-lg-auto">+52 44 32 60 47 37</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="cta_whatsapp">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="cta_container d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-start">
+						<div class="cta_content">
+							<div class="cta_title">O comunicate via whatsapp!</div>
+						</div>
+						<div class="ml-lg-auto d-flex align-items-center">
+							<div class="button button_whatsapp"><a href="#">Iniciar conversación <img src="{{ asset('images/whatsapp.png') }}" alt="Whatsapp" width="25px;"></a></div>
+						</div>
+						{{-- <div class="cta_phone_whatsapp ml-lg-auto d-flex align-items-center">  --}}
+							{{-- <a href="#" style="">
+								Iniciar conversación <span class="ml-2"><img src="{{ asset('images/whatsapp.png') }}" alt="Whatsapp" width="35px;"></span>
+							</a> --}}
+							
+						{{-- </div> --}}
 					</div>
 				</div>
 			</div>

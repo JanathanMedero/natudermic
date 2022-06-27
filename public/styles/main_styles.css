@@ -293,6 +293,27 @@ section
 {
 	color: #fd556d;
 }
+
+.button_whatsapp
+{
+	background: #128C7E;
+	border: solid 2px #57ccc3;
+}
+
+.button_whatsapp a
+{
+	color: #fff;
+}
+.button_whatsapp:hover
+{
+	color: #57ccc3;
+}
+
+.button_whatsapp:hover a
+{
+	color: #25D366;
+}
+
 .button_2
 {
 	background: transparent;
@@ -954,6 +975,15 @@ section
 	padding-top: 49px;
 	padding-bottom: 46px;
 }
+
+.cta_whatsapp
+{
+	width: 100%;
+	background: #25D366;
+	padding-top: 49px;
+	padding-bottom: 46px;
+}
+
 .cta_title
 {
 	font-size: 36px;
@@ -980,6 +1010,21 @@ section
 	font-weight: 600;
 	color: #fff;
 	background: #ee4860;
+	border-radius: 19px;
+	white-space: nowrap;
+}
+
+.cta_phone_whatsapp
+{
+	height: 59px;
+	padding-left: 24px;
+	padding-right: 25px;
+	line-height: 59px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 600;
+	color: #fff;
+	background: #128C7E;
 	border-radius: 19px;
 	white-space: nowrap;
 }
