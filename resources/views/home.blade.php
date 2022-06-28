@@ -94,7 +94,7 @@
 				
 				<!-- Slide -->
 				<div class="owl-item">
-					<div class="background_image" style="background-image:url(images/slider1.png)"></div>
+					<div class="background_image" style="background-image:url(images/test.png)"></div>
 					<div class="home_container">
 						<div class="container">
 							<div class="row">
@@ -116,7 +116,7 @@
 				
 				<!-- Slide -->
 				<div class="owl-item">
-					<div class="background_image" style="background-image:url(images/slider2.png)"></div>
+					<div class="background_image" style="background-image:url(images/test_2.png)"></div>
 					<div class="home_container">
 						<div class="container">
 							<div class="row">
@@ -138,7 +138,7 @@
 				
 				<!-- Slide -->
 				<div class="owl-item">
-					<div class="background_image" style="background-image:url(images/slider3.png)"></div>
+					<div class="background_image" style="background-image:url(images/test_3.png)"></div>
 					<div class="home_container">
 						<div class="container">
 							<div class="row">
@@ -439,7 +439,7 @@
 						<div class="col-xl-4 col-md-6 service_col">
 							<div class="service text-center">
 								<div class="service">
-									<div class="icon_container d-flex flex-column align-items-center justify-content-center ml-auto mr-auto">
+									<div class="icon_container_nature d-flex flex-column align-items-center justify-content-center ml-auto mr-auto">
 										<div class="icon"><img src="images/nature.svg" alt="Natural"></div>
 									</div>
 									<div class="service_title">Productos naturales</div>
@@ -454,7 +454,7 @@
 						<div class="col-xl-4 col-md-6 service_col">
 							<div class="service text-center">
 								<div class="service">
-									<div class="icon_container d-flex flex-column align-items-center justify-content-center ml-auto mr-auto">
+									<div class="icon_container_quality d-flex flex-column align-items-center justify-content-center ml-auto mr-auto">
 										<div class="icon"><img src="images/prepare.svg" alt="Preparación"></div>
 									</div>
 									<div class="service_title">preparación de calidad</div>
@@ -469,7 +469,7 @@
 						<div class="col-xl-4 col-md-6 service_col">
 							<div class="service text-center">
 								<div class="service">
-									<div class="icon_container d-flex flex-column align-items-center justify-content-center ml-auto mr-auto">
+									<div class="icon_container_delivery d-flex flex-column align-items-center justify-content-center ml-auto mr-auto">
 										<div class="icon"><img src="images/delivery.svg"></div>
 									</div>
 									<div class="service_title">Envio gratis</div>
@@ -484,7 +484,7 @@
 						<div class="col-xl-4 col-md-6 service_col">
 							<div class="service text-center">
 								<div class="service">
-									<div class="icon_container d-flex flex-column align-items-center justify-content-center ml-auto mr-auto">
+									<div class="icon_container_national d-flex flex-column align-items-center justify-content-center ml-auto mr-auto">
 										<div class="icon"><img src="images/nacional.svg" alt="Nacional"></div>
 									</div>
 									<div class="service_title">Envios nacionales</div>
@@ -499,7 +499,7 @@
 						<div class="col-xl-4 col-md-6 service_col">
 							<div class="service text-center">
 								<div class="service">
-									<div class="icon_container d-flex flex-column align-items-center justify-content-center ml-auto mr-auto">
+									<div class="icon_container_support d-flex flex-column align-items-center justify-content-center ml-auto mr-auto">
 										<div class="icon"><img src="images/support.svg" alt="soporte"></div>
 									</div>
 									<div class="service_title">Soporte</div>
@@ -514,7 +514,7 @@
 						<div class="col-xl-4 col-md-6 service_col">
 							<div class="service text-center">
 								<div class="service">
-									<div class="icon_container d-flex flex-column align-items-center justify-content-center ml-auto mr-auto">
+									<div class="icon_container_covid d-flex flex-column align-items-center justify-content-center ml-auto mr-auto">
 										<div class="icon"><img src="images/mask.svg" alt="mascarilla"></div>
 									</div>
 									<div class="service_title">Altos estandares de higiene</div>
@@ -556,7 +556,7 @@
 			<!-- Newsletter -->
 			
 			<div class="newsletter">
-				<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/newsletter-min.png" data-speed="0.8"></div>
+				<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/newsletter.png" data-speed="0.8"></div>
 				<div class="container">
 					<div class="row">
 						<div class="col text-center">
