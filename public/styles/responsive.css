@@ -288,7 +288,7 @@
 	}
 	.button
 	{
-		height: 40px;
+		height: auto;
 	}
 	.button a
 	{

@@ -70,13 +70,11 @@
 		<div class="menu_extra">
 			<div class="menu_link">Lunes - Viernes: 9:00am - 5:00pm</div>
 			<div class="menu_link">+52 44 32 60 47 37</div>
-			<div class="menu_link"><a href="#">Quiero información</a></div>
 		</div>
 		<div class="social menu_social">
 			<ul class="d-flex flex-row align-items-center justify-content-start">
-				<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-				<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-				<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+				<li><a href="https://www.facebook.com/natudermic" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+				<li><a href="https://api.whatsapp.com/send?phone=524432604737" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
 			</ul>
 		</div>
 	</div>
@@ -535,7 +533,7 @@
 				<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/parallax.png" data-speed="0.8"></div>
 				<div class="container">
 					<div class="row">
-						<div class="col">
+						<div class="col-12 col-lg-5">
 							<div class="extra_container d-flex flex-row align-items-start">
 								<div class="extra_content">
 									<div class="extra_disc d-flex flex-row align-items-end justify-content-start">
@@ -545,9 +543,13 @@
 									<div class="extra_text">
 										<p>Aprovecha nuestros descuentos especiales a distribuidores, puedes preguntarnos mediante whatsapp o correo electrónico.</p>
 									</div>
-									<div class="button button_whatsapp mt-4"><a href="https://api.whatsapp.com/send?phone=524432604737" target="_blank">Iniciar conversación <img src="{{ asset('images/whatsapp.png') }}" alt="Whatsapp" width="25px;"></a></div>
+									<div class="button button_whatsapp mt-4 text-center"><a href="https://api.whatsapp.com/send?phone=524432604737" target="_blank">Iniciar conversación <img src="{{ asset('images/whatsapp.png') }}" alt="Whatsapp" width="25px;"></a></div>
 								</div>
 							</div>
+						</div>
+						<div class="col-12 col-lg-7 mt-4 d-flex align-items-center justify-content-center">
+							<div class="button button_1 trans_200 text-center"><a href="#" style="pointer-events: none; font-size: 16px;">SOMOS LOS MEJORES EN EL CUIDADO DE LA PIEL.</a></div>
+							<p></p>
 						</div>
 					</div>
 				</div>
@@ -555,14 +557,14 @@
 			
 			<!-- Newsletter -->
 			
-			<div class="newsletter">
+			{{-- <div class="newsletter">
 				<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/newsletter.png" data-speed="0.8"></div>
 				<div class="container">
 					<div class="row">
 						<div class="col text-center">
 							<div class="newsletter_title">SOMOS LOS MEJORES EN EL CUIDADO DE LA PIEL.</div>
 						</div>
-					</div>
+					</div> --}}
 					{{-- <div class="row newsletter_row">
 						<div class="col-lg-8 offset-lg-2">
 							<div class="newsletter_form_container">
@@ -573,8 +575,8 @@
 							</div>
 						</div>
 					</div> --}}
-				</div>
-			</div>
+				{{-- </div>
+			</div> --}}
 			
 			<!-- Footer -->
 			
